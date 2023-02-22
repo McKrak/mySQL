@@ -6,9 +6,12 @@
     xmlns:local="clr-namespace:mySQL"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <FlyoutItem Title="Astronomy" Icon="moon.png">
+        <ShellContent Title="Input Form" Icon="moon.png" Route="InputPage"
+            ContentTemplate="{DataTemplate local:InputPage}"/>
+
+        <ShellContent Title="View Players" Icon="sun.png" Route="ViewPage"
+            ContentTemplate="{DataTemplate local:ViewPage}"/>
+    </FlyoutItem>
 
 </Shell>

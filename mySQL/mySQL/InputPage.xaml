@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mySQL.InputPage"
+             Title="InputPage">
+
+    <VerticalStackLayout Margin="50,5,50,5">
+        <Label 
+            Text="Input player details."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="Player ID"
+            VerticalOptions="Center"/>
+        <Entry
+            HeightRequest="50"
+            BackgroundColor="LightGrey"
+        />
+        
+        <Label 
+            Text="First Name"
+            VerticalOptions="Center"/>
+        <Entry
+            HeightRequest="50"
+            BackgroundColor="LightGrey"
+        />
+
+        <Label 
+            Text="Last Name"
+            VerticalOptions="Center"/>
+        <Entry
+            HeightRequest="50"
+            BackgroundColor="LightGrey"
+        />
+
+
+        <Label 
+            Text="Phone Number"
+            VerticalOptions="Center"/>
+        <Entry
+            HeightRequest="50"
+            BackgroundColor="LightGrey"
+        />
+
+        <Label 
+            Text="Discord ID"
+            VerticalOptions="Center"/>
+        <Entry
+            HeightRequest="50"
+            BackgroundColor="LightGrey"
+        />
+
+        <Label 
+            Text="Esports Game"
+            VerticalOptions="Center"/>
+        <Entry
+            HeightRequest="50"
+            BackgroundColor="LightGrey"
+        />
+
+        <Button
+            Text="Submit"
+            Margin="0,100,0,0"
+           />
+
+    </VerticalStackLayout>
+</ContentPage>
