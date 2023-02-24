@@ -6,6 +6,7 @@
 
     <VerticalStackLayout Margin="50,5,50,5">
         <Label 
+            x:Name="title"
             Text="Input player details."
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
@@ -61,6 +62,7 @@
         <Button
             Text="Submit"
             Margin="0,100,0,0"
+            Clicked="OnButtonClicked"
            />
 
     </VerticalStackLayout>
