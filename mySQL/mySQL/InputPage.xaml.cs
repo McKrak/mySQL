@@ -18,7 +18,7 @@ public partial class InputPage : ContentPage
         connection.Open();
 
         // publish data
-        string query = "INSERT INTO mytable (column1, column2) VALUES ('value1', 'value2')";
+        string query = $"INSERT INTO PLAYERS (PLAYER_ID, FIRST_NAME, LAST_NAME, PHONE_NUMBER, DISCORD_ID, ESPORT_GAME) VALUES ('{xPid.Text}', '{xFirstN.Text}', '{xLastN.Text}', '{xPhone.Text}', '{xDiscord.Text}', '{xEsportsGame.Text}')";
         MySqlCommand command = new MySqlCommand(query, connection);
         command.ExecuteNonQuery();
 
